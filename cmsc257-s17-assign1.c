@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
     // float_display_array(f_array);
     
     // Step #2 - convert the floating point values to integers
-    for(int i = 0; i<numOfinput; i++){
+    for(i = 0; i<numOfinput; i++){
         tmp= (int) f_array[i];
         //Absolute value bitwise
         mask = tmp>>31 ;
