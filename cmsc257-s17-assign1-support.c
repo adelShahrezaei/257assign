@@ -133,8 +133,8 @@ int partition( int a[], int l, int r) {
 int float_even(float *arr, int n){
 	int temp = 0; 
 	int count = 0; 
-
-	for(int i=0;i<n; i++){
+	int i = 0; 
+	for(;i<n; i++){
 		if (!((int) truncf(arr[i]) & 1 ))
 			count++;
 	} 
@@ -155,8 +155,8 @@ int float_even(float *arr, int n){
 int integer_even(int *arr, int n){
 	int temp = 0; 
 	int count = 0; 
-
-	for(int i=0;i<n; i++){
+	int i = 0;
+	for(;i<n; i++){
 		if (! (arr[i] & 1) )
 			count++;
 	} 
